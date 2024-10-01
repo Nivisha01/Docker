@@ -1,0 +1,42 @@
+Docker: 
+  Docker is a software platform that allows you to build, test, and deploy applications quickly.
+  Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+
+Container:
+  * A way to package application with all the necessary dependencies and configuration 
+  * It is portable (can be easily shared and moved)
+  * Makes development and deployment more efficient.
+
+Image: 
+A read-only template used to create containers. It contains the application code, libraries, dependencies, and environment variables. Images are built from a Docker file.
+
+Docker file:
+A Docker file is a simple text file that contains the commands a user could call to assemble an image.
+
+Docker Compose:  
+Docker Compose is a tool for defining and running multi-container Docker applications.
+
+Container Orchestration: Tools like Docker Compose, Kubernetes, and Docker Swarm manage and scale containerized applications, handling deployment, scaling, and load balancing.
+
+Docker Engine: The runtime that enables the creation and management of Docker containers. It consists of a server, REST API, and command-line interface.
+
+Docker Secrets: Securely manage and store sensitive data, such as passwords or API keys, used by Docker services.
+
+Docker Health Checks: Monitor the health of containers and ensure that they are running correctly by running periodic checks.
+
+Docker Compose Overrides: Customize and extend docker-compose.yml files for different environments using override files.
+
+
+docker ps --> To List running container
+docker ps -a  --> to list all containers(both running and stopped container)
+docker rm CONTAINER --> delete container
+docker pull image --> download an image 
+docker push image --> upload an image to repository
+docker rmi image --> delete an image
+docker images --> to list all images
+docker tag image newimage --> tag an image
+docker build image --> to build an image from Dockerfile
+
+
+
+
