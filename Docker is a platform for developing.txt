@@ -1,0 +1,56 @@
+Docker is a platform for developing, shipping, and running applications in containers. Here are the basic concepts of Docker in DevOps:
+
+Container: A lightweight, portable, and self-sufficient unit that includes an application and all its dependencies, allowing it to run consistently across different environments.
+
+Image: A read-only template used to create containers. It contains the application code, libraries, dependencies, and environment variables. Images are built from a Docker file.
+
+Docker file: A script containing a series of instructions to build a Docker image. It defines the environment and configuration for the container.
+
+Docker Engine: The runtime that enables the creation and management of Docker containers. It consists of a server, REST API, and command-line interface.
+
+Docker Hub: A cloud-based registry service for sharing and distributing Docker images. It allows users to store and access images.
+
+Volume: A persistent storage mechanism for Docker containers that allows data to be shared between containers or to persist data beyond the container lifecycle.
+
+Network: Docker provides networking capabilities for containers to communicate with each other and the outside world. Networks can be customized to control connectivity and isolation.
+
+Container Orchestration: Tools like Docker Compose, Kubernetes, and Docker Swarm manage and scale containerized applications, handling deployment, scaling, and load balancing.
+
+Service: In Docker Swarm or Kubernetes, a service defines how containers should be deployed, managed, and exposed to other services or the public.
+
+Docker Compose: A tool for defining and running multi-container Docker applications using a docker-compose.yml file, which specifies services, networks, and volumes.
+
+Image Registry: A system for storing and retrieving Docker images. Common registries include Docker Hub, Google Container Registry, and private registries.
+
+Docker Secrets: Securely manage and store sensitive data, such as passwords or API keys, used by Docker services.
+
+Docker Health Checks: Monitor the health of containers and ensure that they are running correctly by running periodic checks.
+
+Docker Compose Overrides: Customize and extend docker-compose.yml files for different environments using override files.
+
+------------------------------------------------------------
+advanced:
+
+Multi-Stage Builds: Optimize Docker images by using multiple build stages to reduce final image size.
+Docker Swarm: Native Docker clustering and orchestration tool for managing a group of Docker hosts.
+Kubernetes: An advanced container orchestration platform for automating deployment, scaling, and management of containerized applications.
+Service Discovery: Mechanism for dynamically locating services and containers within a Docker network.
+Overlay Network: A network that spans multiple Docker hosts, enabling containers on different hosts to communicate securely.
+Docker Secrets: Securely manage and store sensitive data, such as passwords or API keys, used by Docker services.
+Docker Health Checks: Monitor the health of containers and ensure that they are running correctly by running periodic checks.
+Docker Compose Overrides: Customize and extend docker-compose.yml files for different environments using override files.
+Docker Bench for Security: Automated security checks to assess Docker host and container configurations against best practices.
+Container Logging: Capture and manage logs from Docker containers to track and troubleshoot application behavior.
+
+
+
+
+
+
+
+
+
+
+
+
+
